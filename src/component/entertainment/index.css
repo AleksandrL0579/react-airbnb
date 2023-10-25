@@ -1,0 +1,10 @@
+.entertainment {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.entertainment__link {
+  text-decoration: none;
+  text-decoration: underline;
+  color: #000;
+}

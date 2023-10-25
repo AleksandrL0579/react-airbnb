@@ -1,0 +1,23 @@
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.price__value {
+  font-size: 32px;
+  color: #000;
+  font-weight: bold;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 8px;
+}
+
+.price__list {
+  display: grid;
+  gap: 12px;
+}
+
+title {
+  text-decoration: 2px solid #000;
+  color: blue;
+}

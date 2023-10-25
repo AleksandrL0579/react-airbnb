@@ -1,0 +1,45 @@
+.room__block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.room__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.room {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.room__title {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.room__line {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.room__info {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.room__price {
+  color: #000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
